@@ -1,0 +1,11 @@
+# Python packages for stage 1 (QGIS itself comes from the OS / OSGeo4W / conda-forge, see README).
+numpy>=1.24,<2
+pandas>=2.0
+geopandas>=1.0
+pyogrio>=0.7
+shapely>=2.0
+pyproj>=3.6
+scipy>=1.11
+matplotlib>=3.6
+pillow>=9
+pytest>=7

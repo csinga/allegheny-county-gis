@@ -1,0 +1,20 @@
+# Approximate share of Allegheny County households by income bracket (ACS table B19001 layout),
+# rounded to 0.1 percentage point and reflecting the general shape of recent ACS 5-year releases.
+# Used ONLY to calibrate the shape (a, p) of the synthetic within-tract Dagum distributions.
+bracket_id,lower_usd,upper_usd,pct_households
+1,0,10000,6.3
+2,10000,15000,4.2
+3,15000,20000,3.9
+4,20000,25000,4.0
+5,25000,30000,3.9
+6,30000,35000,3.8
+7,35000,40000,3.7
+8,40000,45000,3.6
+9,45000,50000,3.4
+10,50000,60000,6.7
+11,60000,75000,9.0
+12,75000,100000,11.9
+13,100000,125000,9.2
+14,125000,150000,6.6
+15,150000,200000,8.6
+16,200000,,11.2

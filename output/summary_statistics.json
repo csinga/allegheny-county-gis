@@ -1,0 +1,52 @@
+{
+  "county_median_hh_income": 72537,
+  "county_households": 553000,
+  "tracts_total": 402,
+  "tracts_with_estimate": 388,
+  "tract_median_min": 18800.0,
+  "tract_median_max": 277990.0,
+  "tract_median_of_medians": 68640.0,
+  "tract_median_cv": 0.4776096971077224,
+  "hh_weighted_tract_q1": 54930,
+  "hh_weighted_tract_q3": 102730,
+  "gini_household_mixture": 0.4772,
+  "gini_between_tracts": 0.2442,
+  "pct_hh_under_25k": 17.39,
+  "pct_hh_150k_plus": 20.33,
+  "morans_I": 0.6696,
+  "morans_E_I": -0.0026,
+  "morans_z": 21.9,
+  "morans_p_sim": 0.001,
+  "lisa_counts": {
+    "ns": 217,
+    "HH": 83,
+    "LL": 80,
+    "LH": 5,
+    "HL": 3
+  },
+  "class_breaks_usd": [
+    36000.0,
+    58000.0,
+    87000.0,
+    116000.0
+  ],
+  "class_ratios": [
+    0.5,
+    0.8,
+    1.2,
+    1.6
+  ],
+  "model_trend_r2": 0.6152,
+  "model_loo_rmse_log": 0.3508,
+  "model_loo_mape": 0.2523,
+  "model_anchor_tracts": 149,
+  "model_scale_factor": 1.2,
+  "dagum_a": 3.6,
+  "dagum_p": 0.3,
+  "dagum_fit_chi2": 0.00188,
+  "variogram_nugget": 0.012,
+  "variogram_partial_sill": 0.10229,
+  "variogram_range_ft": 6500,
+  "model_seed": 20261008,
+  "built": "2026-10-08"
+}

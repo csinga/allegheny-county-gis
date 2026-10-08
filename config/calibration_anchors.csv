@@ -1,0 +1,165 @@
+# Calibration anchors for the synthetic household-income surface.
+# Each row is a reference point (community centre) with an APPROXIMATE median household
+# income in USD, rounded to the nearest $1,000, reflecting the broad order of magnitude reported
+# for that community in recent ACS 5-year releases. They are calibration targets for a modelled
+# surface, NOT official statistics; individual values may differ from published estimates.
+# municipality = civil division used to build the approximate community-reference layer.
+# label_priority: 1 = labelled on the published map, 2 = labelled only at larger scales, 0 = never.
+name,municipality,lat,lon,median_income_usd,label_priority
+Downtown,Pittsburgh,40.4410,-79.9990,60000,0
+Hill District,Pittsburgh,40.4450,-79.9780,19000,1
+Oakland,Pittsburgh,40.4380,-79.9560,22000,1
+Shadyside,Pittsburgh,40.4540,-79.9330,68000,2
+Squirrel Hill North,Pittsburgh,40.4450,-79.9220,120000,1
+Squirrel Hill South,Pittsburgh,40.4300,-79.9230,85000,2
+Point Breeze,Pittsburgh,40.4470,-79.9050,105000,2
+Homewood,Pittsburgh,40.4560,-79.8970,22000,1
+East Liberty,Pittsburgh,40.4610,-79.9260,35000,2
+Highland Park,Pittsburgh,40.4800,-79.9140,80000,2
+Lawrenceville,Pittsburgh,40.4700,-79.9600,70000,1
+Bloomfield,Pittsburgh,40.4610,-79.9490,50000,2
+Garfield,Pittsburgh,40.4660,-79.9350,30000,2
+Stanton Heights,Pittsburgh,40.4800,-79.9350,72000,2
+Lincoln-Lemington,Pittsburgh,40.4760,-79.9000,30000,2
+Hazelwood,Pittsburgh,40.4060,-79.9450,28000,1
+Greenfield,Pittsburgh,40.4240,-79.9370,65000,2
+South Side Flats,Pittsburgh,40.4280,-79.9750,60000,2
+Mount Washington,Pittsburgh,40.4300,-80.0080,58000,2
+Beltzhoover,Pittsburgh,40.4170,-79.9980,25000,2
+Carrick,Pittsburgh,40.3960,-79.9850,45000,2
+Brookline,Pittsburgh,40.3920,-80.0170,62000,2
+Banksville,Pittsburgh,40.4100,-80.0350,55000,2
+Central North Side,Pittsburgh,40.4560,-80.0170,40000,2
+Perry South,Pittsburgh,40.4720,-80.0170,30000,2
+Brighton Heights,Pittsburgh,40.4850,-80.0400,55000,2
+Sheraden,Pittsburgh,40.4560,-80.0560,32000,2
+Fox Chapel,Fox Chapel,40.5200,-79.8850,210000,1
+O'Hara,O'Hara,40.5070,-79.8650,125000,2
+Aspinwall,Aspinwall,40.4930,-79.9050,95000,0
+Blawnox,Blawnox,40.4920,-79.8600,50000,0
+Sewickley Heights,Sewickley Heights,40.5650,-80.1500,230000,1
+Sewickley,Sewickley,40.5370,-80.1820,80000,2
+Edgeworth,Edgeworth,40.5500,-80.1950,170000,0
+Leetsdale,Leetsdale,40.5650,-80.2080,55000,0
+Crescent,Crescent,40.5600,-80.2300,75000,0
+Aleppo,Aleppo,40.5400,-80.1500,120000,0
+Ohio Township,Ohio Township,40.5450,-80.0950,110000,0
+Upper St. Clair,Upper St. Clair,40.3350,-80.0800,150000,1
+Mt. Lebanon,Mt. Lebanon,40.3760,-80.0500,115000,1
+Bethel Park,Bethel Park,40.3250,-80.0400,95000,1
+South Park,South Park,40.2950,-79.9950,85000,2
+Pleasant Hills,Pleasant Hills,40.3330,-79.9600,80000,0
+Jefferson Hills,Jefferson Hills,40.2950,-79.9300,95000,2
+Baldwin,Baldwin,40.3700,-79.9700,62000,0
+Whitehall,Whitehall,40.3600,-79.9900,70000,0
+Brentwood,Brentwood,40.3720,-79.9770,55000,0
+Mount Oliver,Mount Oliver,40.4140,-79.9870,32000,0
+Castle Shannon,Castle Shannon,40.3650,-80.0220,60000,0
+Dormont,Dormont,40.3950,-80.0330,65000,0
+Green Tree,Green Tree,40.4170,-80.0480,75000,0
+Scott,Scott,40.3900,-80.0800,75000,0
+Heidelberg,Heidelberg,40.3920,-80.0920,55000,0
+Collier,Collier,40.3950,-80.1300,105000,2
+South Fayette,South Fayette,40.3600,-80.1600,120000,2
+Bridgeville,Bridgeville,40.3560,-80.1100,55000,0
+Carnegie,Carnegie,40.4080,-80.0880,52000,2
+Crafton,Crafton,40.4350,-80.0670,62000,0
+Ingram,Ingram,40.4460,-80.0700,55000,0
+Thornburg,Thornburg,40.4340,-80.0810,140000,0
+Oakdale,Oakdale,40.3980,-80.1860,70000,0
+Robinson,Robinson,40.4550,-80.1350,80000,2
+North Fayette,North Fayette,40.4300,-80.2200,82000,2
+Findlay,Findlay,40.4800,-80.2900,85000,1
+Moon,Moon,40.5150,-80.2200,95000,1
+Coraopolis,Coraopolis,40.5180,-80.1670,48000,2
+Neville Island,Neville,40.5150,-80.1200,50000,0
+McKees Rocks,McKees Rocks,40.4660,-80.0660,33000,1
+Stowe,Stowe,40.4800,-80.0750,45000,0
+Kennedy,Kennedy,40.4800,-80.1000,78000,0
+Bellevue,Bellevue,40.4940,-80.0520,52000,0
+Avalon,Avalon,40.5000,-80.0670,55000,0
+Ben Avon,Ben Avon,40.5070,-80.0820,95000,0
+Emsworth,Emsworth,40.5100,-80.0950,60000,0
+Ross,Ross,40.5250,-80.0250,75000,2
+McCandless,McCandless,40.5850,-80.0300,100000,1
+Franklin Park,Franklin Park,40.5850,-80.0900,150000,2
+Bradford Woods,Bradford Woods,40.6380,-80.0820,160000,0
+Marshall,Marshall,40.6600,-80.1000,165000,2
+Pine,Pine,40.6550,-80.0450,160000,1
+Richland,Richland,40.6450,-79.9600,115000,2
+Hampton,Hampton,40.5850,-79.9500,110000,2
+Shaler,Shaler,40.5200,-79.9600,82000,2
+Millvale,Millvale,40.4800,-79.9750,38000,0
+Etna,Etna,40.4980,-79.9480,45000,0
+Sharpsburg,Sharpsburg,40.4950,-79.9270,40000,0
+Indiana Township,Indiana Township,40.5600,-79.8700,110000,2
+West Deer,West Deer,40.6350,-79.8650,80000,2
+Fawn,Fawn,40.6550,-79.7600,70000,0
+Frazer,Frazer,40.5950,-79.7950,75000,0
+Harrison,Harrison,40.6250,-79.7300,55000,2
+Tarentum,Tarentum,40.6030,-79.7600,40000,1
+Brackenridge,Brackenridge,40.6080,-79.7410,42000,0
+Harmar,Harmar,40.5450,-79.8150,70000,0
+Cheswick,Cheswick,40.5420,-79.8000,60000,0
+Springdale,Springdale,40.5400,-79.7850,55000,0
+Oakmont,Oakmont,40.5200,-79.8400,85000,2
+Verona,Verona,40.5050,-79.8430,50000,0
+Plum,Plum,40.5000,-79.7500,85000,2
+Penn Hills,Penn Hills,40.4800,-79.8300,62000,1
+Monroeville,Monroeville,40.4250,-79.7600,72000,1
+Wilkinsburg,Wilkinsburg,40.4420,-79.8820,40000,1
+Edgewood,Edgewood,40.4320,-79.8820,85000,0
+Swissvale,Swissvale,40.4240,-79.8830,55000,0
+Forest Hills,Forest Hills,40.4200,-79.8500,75000,0
+Churchill,Churchill,40.4400,-79.8430,95000,0
+Rankin,Rankin,40.4130,-79.8800,25000,0
+Braddock,Braddock,40.4030,-79.8680,24000,1
+North Braddock,North Braddock,40.4000,-79.8450,35000,0
+Turtle Creek,Turtle Creek,40.4060,-79.8250,40000,0
+Wilmerding,Wilmerding,40.3920,-79.8100,35000,0
+Pitcairn,Pitcairn,40.4030,-79.7780,45000,0
+Homestead,Homestead,40.4060,-79.9110,30000,2
+West Homestead,West Homestead,40.4000,-79.9200,50000,0
+Munhall,Munhall,40.3920,-79.8990,60000,0
+West Mifflin,West Mifflin,40.3630,-79.8650,55000,2
+Duquesne,Duquesne,40.3780,-79.8550,30000,1
+McKeesport,McKeesport,40.3470,-79.8500,33000,1
+Dravosburg,Dravosburg,40.3500,-79.8860,50000,0
+White Oak,White Oak,40.3400,-79.8000,60000,0
+North Versailles,North Versailles,40.3800,-79.8100,52000,0
+Glassport,Glassport,40.3250,-79.8920,40000,0
+Clairton,Clairton,40.2920,-79.8820,37000,1
+Lincoln,Lincoln,40.3000,-79.8500,55000,0
+Elizabeth,Elizabeth,40.2690,-79.8890,50000,0
+Elizabeth Township,Elizabeth Township,40.2700,-79.8200,75000,2
+Forward,Forward,40.2300,-79.9200,68000,2
+Middle Hill,Pittsburgh,40.4470,-79.9720,16000,0
+Terrace Village,Pittsburgh,40.4415,-79.9660,13000,0
+Crawford-Roberts,Pittsburgh,40.4410,-79.9820,22000,0
+Bluff,Pittsburgh,40.4360,-79.9830,24000,0
+Upper Hill,Pittsburgh,40.4530,-79.9640,45000,0
+South Oakland,Pittsburgh,40.4300,-79.9580,27000,0
+North Oakland,Pittsburgh,40.4500,-79.9510,42000,0
+Larimer,Pittsburgh,40.4650,-79.9150,22000,0
+Homewood North,Pittsburgh,40.4610,-79.8960,26000,0
+Homewood South,Pittsburgh,40.4510,-79.8980,20000,0
+East Hills,Pittsburgh,40.4550,-79.8750,24000,0
+Glen Hazel,Pittsburgh,40.4040,-79.9300,21000,0
+Northview Heights,Pittsburgh,40.4780,-80.0020,12000,0
+Fineview,Pittsburgh,40.4610,-80.0020,24000,0
+Manchester,Pittsburgh,40.4550,-80.0250,36000,0
+Marshall-Shadeland,Pittsburgh,40.4680,-80.0350,33000,0
+Esplen-Chartiers,Pittsburgh,40.4550,-80.0450,31000,0
+Knoxville,Pittsburgh,40.4130,-79.9900,27000,0
+Allentown,Pittsburgh,40.4200,-79.9930,30000,0
+St. Clair-Arlington,Pittsburgh,40.4180,-79.9750,26000,0
+Strip District,Pittsburgh,40.4520,-79.9830,85000,0
+Allegheny West,Pittsburgh,40.4520,-80.0200,55000,0
+Regent Square,Pittsburgh,40.4320,-79.8970,85000,0
+Point Breeze North,Pittsburgh,40.4560,-79.9060,70000,0
+East Pittsburgh,East Pittsburgh,40.3960,-79.8380,30000,0
+McKeesport Christy Park,McKeesport,40.3350,-79.8400,30000,0
+Wilkinsburg East,Wilkinsburg,40.4480,-79.8700,34000,0
+Clairton North,Clairton,40.3050,-79.8800,35000,0
+New Homestead,Pittsburgh,40.3890,-79.9230,70000,0
+Allegheny Center,Pittsburgh,40.4525,-80.0065,38000,0
